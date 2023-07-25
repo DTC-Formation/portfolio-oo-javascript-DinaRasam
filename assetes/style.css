@@ -15,11 +15,7 @@ body {
     flex-direction: row;
     opacity: 1;
 }
-.saryLogo {
-    height: 100%; 
-    width: 100%; 
-    border-radius: 50%; 
-}
+
 .logo {
     padding-top: 10px;
     padding-left: 20px;
@@ -237,14 +233,11 @@ table {
     justify-content: space-evenly;
     top: 10px; 
 }
-.items1 {
-    width: 100px;
-    height: 100px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-   
-    /* padding: 10%; */
+
+.saryLogo {
+    height: 100%; 
+    width: 100%; 
+    border-radius: 50%; 
 }
 .study {
     width: 100%;
@@ -418,6 +411,15 @@ li {
     height: 230px;
     background-color: #fcfbf9;
     box-shadow: rgba(34, 34, 34, 0.35) 0px 5px 15px;;
+}
+.items1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(252, 252, 252);
+    margin: 10px;
+    border-radius: 50%;
+   
+    /* padding: 10%; */
 }
 .style-skils {
     position: relative;

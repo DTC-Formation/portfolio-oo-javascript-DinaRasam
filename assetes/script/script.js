@@ -26,35 +26,35 @@ let Dina={
     Skills:[
        {
         langage: "HTML",
-        photo:"<img src='./assetes/images/Sans titre.png'>"
+        photo:"<img src='./assetes/images/Sans titre.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "CSS",
-        photo:"<img src='./assetes/images/Sans titre.png'>"
+        photo:"<img src='./assetes/images/Sans titre.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "JS",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/Sans titre.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "PHP",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/php-1-logo-png-transparent.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "Bootstrap",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/Sans titre.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "C",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/Sans titre.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "CodeIgniter",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/codeigniter.png' width=\'100px\' height=\'100px\'>"
        },
        {
         langage: "Git",
-        photo:"<img src='./assetes/images/JavaScript-logo.png'>"
+        photo:"<img src='./assetes/images/Git-Icon-1788C.png' width=\'100px\' height=\'100px\'>" 
        }
 
     ],
@@ -72,10 +72,10 @@ let Dina={
      let Skills = document.getElementById("skils")
      console.log(Dina.Skills[i].photo)
         Skills.innerHTML +=
-                           "<div class='skils1'>"
-                            "<div class='items1'>"  + Dina.Skills[i].photo +
-                            "<h1 class='style-skils'>"+Dina.Skills[i].langage+"</h1>"
-                            "</div>" 
+                           "<div class='skils1'>"+
+                            "<div class='items1'>" + Dina.Skills[i].photo +
+                            "<h1 class='style-skils'>"+Dina.Skills[i].langage+"</h1>"+
+                            "</div>" +
                             "</div>"
 }
 
