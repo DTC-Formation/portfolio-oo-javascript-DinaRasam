@@ -58,10 +58,25 @@ let Dina={
        }
 
     ],
-    Contacts:[
+    Education:[
         {
-       
-    }
+         année: 2023 ,
+         grade: "Formation DTC"
+        },
+        {
+        année: 2023 ,
+        grade: "Formation DTC"
+        },
+        {
+        année: 2023 ,
+        grade: "Formation DTC"
+        },
+        {
+        année: 2023 ,
+        grade: "Formation DTC"
+        },
+
+
 
     ],
     
