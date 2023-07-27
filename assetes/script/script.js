@@ -60,24 +60,36 @@ let Dina={
     ],
     Education:[
         {
-         année: 2023 ,
-         grade: "Formation DTC"
+         année: "2023" ,
+         grade: "Formation DTC",
+         explication: "Following the training web developer at DTC."
         },
         {
-        année: 2023 ,
-        grade: "Formation DTC"
+        année: "2022-2023" ,
+        grade: "third years at ISPM",
+        explication: "third year 'Eléctronique Systèmes Informatiques' at Institut Superieur Polythecnique de Madagascar."
         },
         {
-        année: 2023 ,
-        grade: "Formation DTC"
+        année: "2021-2022",
+        grade: "second years at ISPM",
+        explication: "Seconde year 'Eléctronique Systèmes Informatiques' at Institut Superieur Polythecnique de Madagascar."
         },
         {
-        année: 2023 ,
-        grade: "Formation DTC"
+        année: "2020-2021"  ,
+        grade: "first years at ISPM",
+        explication: "First year 'Eléctronique Systèmes Informatiques' at Institut Superieur Polythecnique de Madagascar."
         },
-
-
-
+        {
+        année: "2018" ,
+        grade: "obtain baccalaureate",
+        explication: "First year 'Eléctronique Systèmes Informatiques' at Institut Superieur Polythecnique de Madagascar."
+        },
+    ],
+    Experience:[
+        {
+        année: "Mars-may:2023",
+        explication:"Development of web applications to manage the presence of employees at the MNPDT technology:codeigniter"
+        }
     ],
     
    
@@ -85,7 +97,7 @@ let Dina={
 // console.log(Dina.About.dateDebut)
  for(let i = 0;i<Dina.Skills.length ;i++){
      let Skills = document.getElementById("skils")
-     console.log(Dina.Skills[i].photo)
+    //  console.log(Dina.Skills[i].photo)
         Skills.innerHTML +=
                            "<div class='skils1'>"+
                             "<div class='items1'>" + Dina.Skills[i].photo +
@@ -121,3 +133,23 @@ description2.innerHTML += "<table>"+
                           "</tbody>"+
                           "</table>"
 
+for(let i = 0;i<Dina.Education.length ;i++){
+    let Education = document.getElementById("Grade")
+    // console.log(Dina.Education[i].explication)
+    Education.innerHTML += '<div class="educ">'+Dina.Education[i].année+'</div>'+
+                          '<div class="exp">'+
+                          '<h2 class="sec">'+ Dina.Education[i].grade+'</h2>'+
+                            '<p>'+Dina.Education[i].explication+'</p>'+
+                          '</div>'+
+                          '</div>'
+                          
+}
+for(let i = 0;i<Dina.Experience.length ;i++ ){
+    let Experience = document.getElementById("Experiences")
+    // console.log(Dina.Education[i].explication)
+    Experience.innerHTML += '<div class="educ">'+Dina.Experience[i].année+'</div>'+
+                          '<div class="exp">'+
+                            '<p>'+Dina.Education[i].explication+'</p>'+
+                          '</div>'+
+                          '</div>' 
+}
